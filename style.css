@@ -11,26 +11,19 @@ body {
     margin: auto;
 }
 
-h1 {
-    position: relative;
-    width: 722px;
-    padding: 50px;
-    padding-top: 100px;
-    margin: auto;
-    font-size: 70px;
-    text-align: center;
-    text-shadow: 1px 1px 2px rgb(113, 143, 162), 0 0 8px rgb(110, 110, 122);
-}
-
 .menu {
     display: flex;
+    position: fixed;
     width: 1000px;
     padding: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 0 !important;
+    margin: auto;
     border: 2px  black;
-    background-color: rgb(113, 113, 118, 0.733);
+    background-color: rgb(113, 113, 118);
     justify-content: space-around;
     align-items: flex-start;
-    margin: auto;
     border-radius: 10px;
 }
 
@@ -48,6 +41,18 @@ h1 {
     background-color: whitesmoke;
     border: 2px solid black;
     border-radius: 17%;
+    color: black;
+}
+
+h1 {
+    position: relative;
+    width: 722px;
+    padding: 50px;
+    padding-top: 100px;
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(113, 143, 162), 0 0 8px rgb(110, 110, 122);
 }
 
 div.title {
@@ -76,10 +81,9 @@ div.div2{
     flex: auto;
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 9%;
     margin: 20px;
-    border: 2px dashed black;
-    border-radius: 10%;
+    border-radius: 17%;
     text-align: center;
     align-items: flex-start;
     background-color: rgb(113, 113, 118, 0.733);
@@ -116,20 +120,20 @@ div.div2{
     flex:auto;
     width: auto;
     height: auto;
-    padding: 5px;
+    padding: 9%;
     margin: 20px;
-    border: 2px dashed black;
-    border-radius: 10%;
+    border-radius: 17%;
     text-align: center;
     align-items: flex-start;
     justify-content: right;
     background-color: rgb(113, 113, 118, 0.733); 
+    font-size: 40px;
 }
 
 .img3 {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 30%;
     opacity: 70%;
 }
 
@@ -144,14 +148,20 @@ div.div2{
     width: auto;
     height: 250px;
     padding: 5px;
-    border: 2px dashed black;
-    border-radius: 10%;
+    border: 2px black;
+    border-radius: 15%;
     text-align: center;
     align-items: center;
     justify-content: right;
     background-color: rgb(113, 113, 118, 0.733); 
 }
 
+.reseau {
+    display: flexbox;
+    width : 5%;
+    justify-content: space-between;
+    align-items: center;
+}
 
 @media screen and (max-width: 930px) {
 
@@ -170,7 +180,7 @@ div.div2{
     }
 
     .p1 {
-        height : 350px;
+        font-size: 30px;
     }
 
     .img1 {
@@ -178,13 +188,13 @@ div.div2{
     }
 
     .img2 {
-        width: 40%;
+        width: 35%;
         margin-top: 30px;
         margin-bottom: 40px;
     }
 
     .p2 {
-        height: 300px;
         margin-top: 30px;
+        font-size: 30px;
     }
 }
