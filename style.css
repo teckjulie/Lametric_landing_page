@@ -131,8 +131,8 @@ div.div2{
 }
 
 .img3 {
-    display: flex;
     justify-content: center;
+    flex-flow: row wrap;
     width: 30%;
     opacity: 70%;
 }
@@ -167,11 +167,12 @@ div.div2{
 
     h1 {
         width: 500px;
-        padding-top: 40px;
+        padding-top: 100px;
     }
 
     .menu {
         width: 50%;
+        margin: 0;
     }
 
     .menu a {
