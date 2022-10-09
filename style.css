@@ -20,7 +20,6 @@ body {
     padding-right: 20%;
     margin-top: 0 !important;
     margin: auto;
-    border: 2px  black;
     background-color: rgb(113, 113, 118);
     justify-content: space-around;
     align-items: flex-start;
@@ -146,7 +145,7 @@ div.div2{
     display: block;
     flex:auto;
     width: auto;
-    height: 250px;
+    height: auto;
     padding: 5px;
     border: 2px black;
     border-radius: 15%;
@@ -163,7 +162,7 @@ div.div2{
     align-items: center;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 730px) {
 
     h1 {
         width: 500px;
@@ -171,8 +170,9 @@ div.div2{
     }
 
     .menu {
-        width: 50%;
-        margin: 0;
+        width: 40%;
+        margin: auto !important;
+        padding: auto;
     }
 
     .menu a {
@@ -180,12 +180,16 @@ div.div2{
         justify-content: space-between;
     }
 
+    .bgimg {
+        margin: auto;
+    }
+
     .p1 {
         font-size: 30px;
     }
 
     .img1 {
-        width: 40%;
+        width: 50%;
     }
 
     .img2 {
